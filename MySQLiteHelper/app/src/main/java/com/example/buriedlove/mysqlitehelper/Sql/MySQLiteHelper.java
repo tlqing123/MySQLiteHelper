@@ -14,11 +14,11 @@ import android.text.TextUtils;
 public class MySQLiteHelper extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 6;
-    public static final String DATABASE_NAME = "TimmyDB";
+    public static final String DATABASE_NAME  = "TimmyDB";
 
-    private static final String UNIQUE     =  "UNIQUE";
-    private static final String TEXT_TYPE  = " TEXT";
-    private static final String INT_TYPE    = " INTEGER";
+    private static final String UNIQUE    = "UNIQUE";
+    private static final String TEXT_TYPE = " TEXT";
+    private static final String INT_TYPE  = " INTEGER";
     private static final String COMMA_SEP = ",";
 
     private static final String SQL_CREATE_ENTRIES_USER_INFO = "CREATE TABLE "
